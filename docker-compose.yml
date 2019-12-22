@@ -9,7 +9,7 @@ services:
 
         ports:
             - "80:80"
-            - "1443:1443"
+            - "443:443"
 
         volumes:
             - ./Nginx/core:/etc/nginx/conf.d
